@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>fleets</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+    h1{
+        font-size: 70px;
+        font-variant: small-caps;
+    }
+    .card-header{
+        font-size: 20px;
+        font-weight: 500;
+        background: black;
+        color: orangered;
+    }
+    .card-footer{
+        font-size: 25px;
+    }
+    span{
+        color: tomato;
+        font-weight: 500;
+    }
+    .modal-header{
+            background-image: url(https://image.freepik.com/free-vector/variety-cute-shapes-abstract-background_23-2148544989.jpg);
+            background-size: cover;
+        }
+</style>  
+</head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <div class="jumbotron mb-0">
+        <div class="d-flex">
+            <div class="mr-auto">
+                <h1 class="mt-n5">
+                    <strong>Wheels On </strong><span style="color: orange;">Rent</span>
+                </h1><br>
+                <h2 class="ml-2 mt-n2">
+                    Online Car Rental Service
+                </h2>
+            </div>
+            <div class="ml-auto">
+                <h3 class="mt-n3">Get In Touch :</h3><br>
+                <a href="#"><img src="./img/google-maps.png" alt="Location" class="float-right mr-4 mt-n2" height="42px" width="42px"></a>
+                <a href="#"><img src="./img/facebook.png" alt="FB" class="float-right mr-4 mt-n2" height="42px" width="42px"></a>
+                <a href="#"><img src="./img/whatsapp.png" alt="WhatsApp" class="float-right mr-4 mt-n2" height="42px" width="42px"></a>
+                <a href="#"><img src="./img/gmail.png" alt="Mail" class="float-right mr-4 mt-n2" height="45px" width="45px"></a>
+            </div>
+        </div>   
+    </div>
+    <nav class="navbar navbar-expand bg-dark navbar-dark sticky-top mt-n5">
+        <a class="navbar-brand" href="index.html">
+            <h4>Home</h4>
+        </a>
+        <h5>
+        <ul class="navbar-nav ml-1 mt-2">
+          <li class="nav-item ml-2">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item ml-2">
+            <a class="nav-link" href="fleets.html">Fleets</a>
+          </li>
+          <li class="nav-item ml-2">
+            <a class="nav-link" href="tariffs.html">Tariffs</a>
+          </li>
+          <li class="nav-item ml-2">
+            <a class="nav-link" href="terms.html">Terms & Conditions</a>
+          </li>
+          <li class="nav-item ml-2" id="sign">
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#Modal">
+                <h5 class="mb-0">SignUp</h5>
+            </button>
+            <div class="modal fade" id="Modal" data-backdrop="false">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <p class="modal-title" style="font-size: 50px; font-weight: 600; font-variant: small-caps;">Login/Sign-in</p>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="/action_page.php">
+                                <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Email address" name="text1">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Password" name="text2">
+                                </div>
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck" name="check">
+                                    <label class="custom-control-label" for="customCheck">Remember Me</label>
+                                </div>
+                            </form>
+                            <button type="button" class="btn btn-primary btn-block">Login</button>   
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger btn-block mt-2">
+                                <img src="./img/google.png" height="30px" width="30px">
+                                Signin with Google
+                            </button>
+                            <button type="button" class="btn btn-primary btn-block">
+                                <img src="./img/facebook.png" height="30px" width="30px">
+                                Signin with Facebook
+                            </button>
+                        </div>        
+                    </div>
+                </div>
+            </div>
+          </li>
+        </ul>
+        </h5>
+    </nav>
+    <div class="jumbotron text-center" style="background-image: url(./img/back2.jpg); background-size: cover; color: ghostwhite;">
+        <h1>Our Fleets</h1>
+    </div>    
+        <div class="container text-center">
+            <div class="card-columns">
+                <div class="card">
+                    <div class="card-header">MARUTI SWIFT</div>
+                    <div class="card-body"><img src="https://imgctcf.aeplcdn.com/thumbs/p-nc-a-ver49/images/car-data/big/maruti-suzuki-swift-default.jpg" height="200px" width="110%"></div>
+                    <div class="card-footer">
+                        <ul class="list-group list-group-horizontal">
+                            <li class="list-group-item"><span>1500</span> / Day</li>
+                            <li class="list-group-item bg-light"><span>300</span>Kms/Day<br><span>8</span>/Km Extra</li>
+                        </ul>
+                    </div>
+                </div><br>
+                <button data-toggle="collapse" data-target="#demo" class="btn-lg btn-success">Book Now</button>
+                <div id="demo" class="collapse">Coming Soon</div>
+                  <div class="card">
+                    <div class="card-header">HYUNDAI i20</div>
+                    <div class="card-body"><img src="https://images.carandbike.com/car-images/colors/hyundai/elite-i20/hyundai-elite-i20-polar-white-dual-tone.png?v=1591792468" height="200px" width="100%"></div>
+                    <div class="card-footer">
+                        <ul class="list-group list-group-horizontal">
+                            <li class="list-group-item"><span>2000</span> / Day</li>
+                            <li class="list-group-item"><span>300</span>Kms/Day<br><span>8</span>/Km Extra</li>
+                        </ul>
+                    </div>
+                </div><br>
+                <button data-toggle="collapse" data-target="#demo" class="btn-lg btn-success">Book Now</button>
+                <div id="demo" class="collapse">Coming Soon</div>
+                <div class="card">
+                    <div class="card-header">HONDA CITY IVTEC</div>
+                    <div class="card-body"><img src="https://m.hondacarindia.com/areas/city/contents/imagesamp/honda-city/white.jpg" height="200px" width="100%"></div>
+                    <div class="card-footer">
+                        <ul class="list-group list-group-horizontal">
+                            <li class="list-group-item"><span>2500</span> / Day</li>
+                            <li class="list-group-item"><span>300</span>Kms/Day<br><span>8</span>/Km Extra</li>
+                        </ul>
+                    </div>                  
+                </div><br>
+                <button data-toggle="collapse" data-target="#demo" class="btn-lg btn-success">Book Now</button>
+                <div id="demo" class="collapse">Coming Soon</div>
+                  <div class="card">
+                    <div class="card-header">TOYOTA INNOVA CRYSTA</div>
+                    <div class="card-body"><img src="https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver49/images/car-data/big/toyota-innova-crysta-12900.png" height="200px" width="105%"></div>
+                    <div class="card-footer">
+                        <ul class="list-group list-group-horizontal">
+                            <li class="list-group-item"><span>3000</span> / Day</li>
+                            <li class="list-group-item"><span>300</span>Kms/Day<br><span>8</span>/Km Extra</li>
+                        </ul>
+                    </div>
+                </div><br>
+                <button data-toggle="collapse" data-target="#demo" class="btn-lg btn-success">Book Now</button>
+                <div id="demo" class="collapse">Coming Soon</div>
+                  <div class="card">
+                    <div class="card-header">TOYOTA FORTUNER</div>
+                    <div class="card-body"><img src="https://static.bangkokpost.com/media/content/20200604/3652044.jpg" height="200px" width="100%"></div>
+                    <div class="card-footer">
+                        <ul class="list-group list-group-horizontal">
+                            <li class="list-group-item"><span>3500</span> / Day</li>
+                            <li class="list-group-item"><span>300</span>Kms/Day<br><span>8</span>/Km Extra</li>
+                        </ul>
+                    </div>
+                  </div><br>
+                  <button data-toggle="collapse" data-target="#demo" class="btn-lg btn-success">Book Now</button>
+                  <div id="demo" class="collapse">Coming Soon</div>
+            </div>
+        </div>
+</body>
+</html>

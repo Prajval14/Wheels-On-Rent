@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>tariffs</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        h1{
+            font-size: 70px;
+            font-variant: small-caps;
+        }
+        .table{
+            font-size: 20px;
+        }
+        .modal-header{
+            background-image: url(https://image.freepik.com/free-vector/variety-cute-shapes-abstract-background_23-2148544989.jpg);
+            background-size: cover;
+        }
+    </style>
+</head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <div class="jumbotron mb-0">
+        <div class="d-flex">
+            <div class="mr-auto">
+                <h1 class="mt-n5">
+                    <strong>Wheels On </strong><span style="color: orange;">Rent</span>
+                </h1><br>
+                <h2 class="ml-2 mt-n2">
+                    Online Car Rental Service
+                </h2>
+            </div>
+            <div class="ml-auto">
+                <h3 class="mt-n3">Get In Touch :</h3><br>
+                <a href="#"><img src="./img/google-maps.png" alt="Location" class="float-right mr-4 mt-n2" height="42px" width="42px"></a>
+                <a href="#"><img src="./img/facebook.png" alt="FB" class="float-right mr-4 mt-n2" height="42px" width="42px"></a>
+                <a href="#"><img src="./img/whatsapp.png" alt="WhatsApp" class="float-right mr-4 mt-n2" height="42px" width="42px"></a>
+                <a href="#"><img src="./img/gmail.png" alt="Mail" class="float-right mr-4 mt-n2" height="45px" width="45px"></a>
+            </div>
+        </div>   
+    </div>
+    <nav class="navbar navbar-expand bg-dark navbar-dark sticky-top mt-n5">
+        <a class="navbar-brand" href="index.html">
+            <h4>Home</h4>
+        </a>
+        <h5>
+        <ul class="navbar-nav ml-1 mt-2">
+          <li class="nav-item ml-2">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item ml-2">
+            <a class="nav-link" href="fleets.html">Fleets</a>
+          </li>
+          <li class="nav-item ml-2">
+            <a class="nav-link" href="tariffs.html">Tariffs</a>
+          </li>
+          <li class="nav-item ml-2">
+            <a class="nav-link" href="terms.html">Terms & Conditions</a>
+          </li>
+          <li class="nav-item ml-2" id="sign">
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#Modal">
+                <h5 class="mb-0">SignUp</h5>
+            </button>
+            <div class="modal fade" id="Modal" data-backdrop="false">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <p class="modal-title" style="font-size: 50px; font-weight: 600; font-variant: small-caps;">Login/Sign-in</p>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="/action_page.php">
+                                <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Email address" name="text1">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Password" name="text2">
+                                </div>
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck" name="check">
+                                    <label class="custom-control-label" for="customCheck">Remember Me</label>
+                                </div>
+                            </form>
+                            <button type="button" class="btn btn-primary btn-block">Login</button>   
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger btn-block mt-2">
+                                <img src="./img/google.png" height="30px" width="30px">
+                                Signin with Google
+                            </button>
+                            <button type="button" class="btn btn-primary btn-block">
+                                <img src="./img/facebook.png" height="30px" width="30px">
+                                Signin with Facebook
+                            </button>
+                        </div>        
+                    </div>
+                </div>
+            </div>
+          </li>
+        </ul>
+        </h5>
+    </nav>
+    <div class="jumbotron text-center" style="background-image: url(./img/back.jpg); background-size: cover; color: ghostwhite;">
+        <h1>Tariffs</h1>
+    </div>
+    <div class="container text-center">
+        <table class="table table-hover">
+            <thead class="table-dark text-danger">
+                <tr>
+                    <th>Vehicle Name</th>
+                    <th>Vehicle Type</th>
+                    <th>Rate</th>
+                    <th>Limit(Kms)</th>
+                    <th>Extra/Kms</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>MARUTI SWIFT</td>
+                    <td>HATCHBACK</td>
+                    <td>1500</td>
+                    <td>300</td>
+                    <td>8</td>
+                <tr>
+                    <td>HYUNDAI i20</td>
+                    <td>HATCHBACK</td>
+                    <td>2000</td>
+                    <td>300</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>HONDA CITY IVTEC</td>
+                    <td>SEDAN</td>
+                    <td>2500</td>
+                    <td>300</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>TOYOTA INNOVA CRYSTA</td>
+                    <td>SUV/MUV</td>
+                    <td>3000</td>
+                    <td>300</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>TOYOTA FORTUNER</td>
+                    <td>SUV/MUV</td>
+                    <td>3500</td>
+                    <td>300</td>
+                    <td>8</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
